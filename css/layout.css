@@ -48,12 +48,15 @@ header:before {
    height: 100%;
 }
 header .banner {
-   display: inline-block;
-   vertical-align: middle;
-   margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;s
-   text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;s
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.49);
+    border-radius: 30px;
+    padding-top: 30px;
 }
 
 header .banner-text { width: 100%; }
@@ -86,7 +89,7 @@ header .banner-text hr {
 header .social {
    margin: 24px 0;
    padding: 0;
-   font-size: 30px;
+   font-size: 50px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 header .social li {
@@ -179,7 +182,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #00aff0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -650,8 +653,9 @@ call-to-action .button {
    overflow: hidden;
 }
 #testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 96px;
+    padding-bottom: 66px;
 }
 #testimonials h1 {
    font: 18px/24px 'opensans-bold', sans-serif;   
