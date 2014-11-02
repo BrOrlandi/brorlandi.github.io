@@ -17,7 +17,6 @@
    i. Footer
 
 ===================================================================== */
-
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
@@ -33,7 +32,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(https://dl.dropboxusercontent.com/u/41994681/brorlandi.me/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -328,35 +327,78 @@ ul#nav li.current a { color: #00aff0; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
 .html5 {
-  	width: 80%;
+  	width: 95%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
+
+.git {
+  	width: 95%;
+  	-moz-animation: git 2s ease;
+  	-webkit-animation: git 2s ease;
+}
+
+.clang {
+  	width: 95%;
+  	-moz-animation: clang 2s ease;
+  	-webkit-animation: clang 2s ease;
+}
+
+.php {
+  	width: 35%;
+  	-moz-animation: php 2s ease;
+  	-webkit-animation: php 2s ease;
+}
+
+.java {
+  	width: 60%;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
+}
+
+.android {
+  	width: 40%;
+  	-moz-animation: android 2s ease;
+  	-webkit-animation: android 2s ease;
+}
+
+.google-apis {
   	width: 50%;
+  	-moz-animation: google-apis 2s ease;
+  	-webkit-animation: google-apis 2s ease;
+}
+
+.linux {
+  	width: 70%;
+  	-moz-animation: linux 2s ease;
+  	-webkit-animation: linux 2s ease;
+}
+
+.python {
+  	width: 60%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
+}
+
+.jquery {
+  	width: 80%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+}
+
+.guitar {
+  	width: 10%;
+  	-moz-animation: guitar 2s ease;
+  	-webkit-animation: guitar 2s ease;
+}
+
+.skills i{
+    font-size: 30px;
+}
+
+.fa-android{
+    color: #a4c639;
 }
 
 @-moz-keyframes photoshop {
@@ -642,7 +684,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(https://dl.dropboxusercontent.com/u/41994681/brorlandi.me/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
