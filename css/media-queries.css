@@ -300,7 +300,7 @@
    }  
    #contact h1 span { display: block; }
    #contact .header-col { padding-top: 0; }
-   #contact .header-col h1:before { content: none;	}
+   #contact .header-col h1:before { display: block;}
    #contact .section-head p.lead { text-align: center;}
 
    /* form */
