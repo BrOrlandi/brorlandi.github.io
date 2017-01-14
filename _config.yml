@@ -1,15 +1,18 @@
 # Site settings
-title: Clean Blog
+title: Bruno Orlandi
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+email: brorlandi@gmail.com
+copyright_name: Bruno Orlandi
+description: > # this means to ignore newlines until "baseurl:"
+  Site pessoal de Bruno Orlandi. 
+  Formado em Ciências de Computação pela USP São Carlos, desenvolvedor Web full-stack.
+  Organizando um portifólio e compartilhando minhas experiências. ;)
+baseurl: ""
+url: "https://brorlandi.github.io"
+#twitter_username: 
+github_username:  brorlandi
+#facebook_username:  
+email_username:  brorlandi@gmail.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
