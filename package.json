@@ -5,6 +5,9 @@
     "homepage": "http://startbootstrap.com",
     "author": "Start Bootstrap",
     "license": "MIT",
+    "scripts": {
+        "build": "grunt"
+    },
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",

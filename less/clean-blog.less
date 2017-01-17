@@ -79,6 +79,9 @@ hr.small {
 			}
 		}
 	}
+	.navbar-brand {
+		color: @brand-primary;
+	}
 	@media only screen and (min-width: 768px) {
 		background: transparent;
 		border-bottom: 1px solid transparent;
@@ -167,9 +170,15 @@ hr.small {
 	.post-heading,
 	.page-heading {
 		padding: 100px 0 50px;
+		&.logo{
+			padding: 50px 0 20px 0;
+		}
 		color: white;
 		@media only screen and (min-width: 768px) {
 			padding: 150px 0;
+			&.logo{
+				padding: 25px 0;
+			}
 		}
 	}
 	.site-heading,
@@ -460,4 +469,18 @@ img::-moz-selection {
 
 body {
 	webkit-tap-highlight-color: @brand-primary;
+}
+
+img{
+	&.center{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	&.header{
+		height: 200px;
+		margin: 25px auto;
+		@media only screen and (min-width: 768px) {
+			margin: 50px auto;
+		}
+	}
 }
