@@ -6,13 +6,14 @@ copyright_name: Bruno Orlandi
 description: > # this means to ignore newlines until "baseurl:"
   Site pessoal de Bruno Orlandi. 
   Formado em Ciências de Computação pela USP São Carlos, desenvolvedor Web full-stack.
-  Organizando um portifólio e compartilhando minhas experiências. ;)
+  Compartilhando conhecimento, projetos e ideias. ;)
 baseurl: ""
 url: "https://brorlandi.github.io"
 #twitter_username: 
 github_username:  brorlandi
 #facebook_username:  
 email_username:  brorlandi@gmail.com
+linkedin_url: https://br.linkedin.com/in/brorlandi
 
 google_tracking_id: UA-90468847-1
 
@@ -28,3 +29,5 @@ gems:
   - jekyll-feed
 
 timezone: America/Sao_Paulo
+
+livereload: true 
