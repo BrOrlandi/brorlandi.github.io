@@ -6,7 +6,8 @@
     "author": "Start Bootstrap",
     "license": "MIT",
     "scripts": {
-        "build": "grunt",
+        "build": "grunt && jekyll build",
+        "dev": "grunt --watch",
         "start": "jekyll serve"
     },
     "devDependencies": {
