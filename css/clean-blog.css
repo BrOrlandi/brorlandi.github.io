@@ -1,3 +1,9 @@
+/*!
+ * Clean Blog v1.0.0 (http://startbootstrap.com)
+ * Copyright 2017 Start Bootstrap
+ * Licensed under MIT (https://spdx.org/licenses/MIT)
+ */
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -415,6 +421,11 @@ img.center {
 img.header {
   height: 200px;
   margin: 25px auto;
+}
+@media only screen and (max-width: 400px) {
+  img.header {
+    height: 185px;
+  }
 }
 @media only screen and (min-width: 768px) {
   img.header {
