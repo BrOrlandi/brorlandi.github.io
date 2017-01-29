@@ -1,0 +1,35 @@
+# Site settings
+title: Bruno Orlandi
+header-img: img/home-bg.png
+email: brorlandi@gmail.com
+copyright_name: Bruno Orlandi
+description: > # this means to ignore newlines until "baseurl:"
+  Site pessoal de Bruno Orlandi. 
+  Formado em Ciências de Computação pela USP São Carlos, desenvolvedor Web full-stack.
+  Compartilhando conhecimento, projetos e ideias. ;)
+baseurl: ""
+url: "https://brorlandi.github.io"
+#twitter_username: 
+github_username:  brorlandi
+#facebook_username:  
+email_username:  brorlandi@gmail.com
+linkedin_url: https://br.linkedin.com/in/brorlandi
+
+google_tracking_id: UA-90468847-1
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: 
+  - jekyll-paginate
+  - jekyll-feed
+
+timezone: America/Sao_Paulo
+
+livereload: true 
+
+fb_img: /img/fb-image.png
