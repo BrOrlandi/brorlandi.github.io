@@ -36,4 +36,29 @@
 
     <meta name="theme-color" content="#0057a1">
     <meta name="mobile-web-app-capable" content="yes">
+
+    <!--Facebook OG-->
+    
+    <meta property="fb:app_id" content="175429786274303">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:image" content="{{ site.fb_img | prepend: site.url }}">
+    <meta property="og:description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:site_name" content="{{site.title}}">
+    <meta property="og:locale" content="pt_BR">
+
+    <!--Twitter-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@brorlandi">
+    <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="{{ site.fb_img | prepend: site.url }}">
+
+    <!--Gplus-->
+    <link href="https://plus.google.com/+BrunoOrlandi1" rel="publisher">
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta itemprop="description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
+    <meta itemprop="image" content="{{ site.fb_img | prepend: site.url }}">
 </head>
