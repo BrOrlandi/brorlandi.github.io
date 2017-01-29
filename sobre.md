@@ -3,7 +3,7 @@ layout: page
 title: "Sobre"
 description: "Bruno Orlandi"
 header-img: "img/about-bg.jpg"
-justify_content: true
+meta-description: Sobre Bruno Orlandi
 ---
 
 <img src="/img/bruno.jpg" alt="Bruno Orlandi" width="320px" class="center img-responsive"/>
