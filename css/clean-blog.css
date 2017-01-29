@@ -1,9 +1,3 @@
-/*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2017 Start Bootstrap
- * Licensed under MIT (https://spdx.org/licenses/MIT)
- */
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -47,25 +41,42 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
-  background: white;
+  background-color: rgba(0, 87, 161, 0.9);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
+  border-bottom: 0px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
+}
+.navbar-custom .navbar-collapse {
+  border-top: 0px;
+}
+.navbar-custom .navbar-collapse.collapse.in,
+.navbar-custom .navbar-collapse.collapsing {
+  background-color: rgba(0, 59, 110, 0.6);
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+  color: #ffffff;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #d4ebff;
 }
 .navbar-custom .navbar-brand {
-  color: #0057a1;
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #d4ebff;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -73,20 +84,20 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: #ffffff;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.6);
+    color: #d4ebff;
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: #ffffff;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.6);
+    color: #d4ebff;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -107,25 +118,24 @@ hr.small {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-bottom: 1px solid #f2f2f2;
+    background-color: rgba(0, 87, 161, 0.9);
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: #ffffff;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0057a1;
+    color: #d4ebff;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: #ffffff;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0057a1;
+    color: #d4ebff;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -135,6 +145,16 @@ hr.small {
     -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
+}
+.navbar-custom .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #003b6e;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #ffffff;
 }
 .intro-header {
   background: no-repeat center center;

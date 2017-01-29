@@ -59,15 +59,22 @@ hr.small {
 // Navigation
 
 .navbar-custom {
-	background: white;
+	background-color: fade(@navbar-bg-color, 90%);
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 3;
+	border-bottom: 0px;
 	.sans-serif;
 	.navbar-brand {
 		font-weight: 800;
+	}
+	.navbar-collapse {
+		border-top: 0px;
+		&.collapse.in, &.collapsing{
+			background-color: fade(@navbar-toggle-focus,60%);
+		}
 	}
 	.nav {
 		li {
@@ -76,31 +83,40 @@ hr.small {
 				font-size: 12px;
 				font-weight: 800;
 				letter-spacing: 1px;
+				color: @navbar-text-color;
+				&:hover,
+				&:focus {
+					color: @navbar-hover-color;
+				}
 			}
 		}
 	}
 	.navbar-brand {
-		color: @brand-primary;
+		color: @navbar-text-color;
+		&:hover,
+		&:focus {
+			color: @navbar-hover-color;
+		}
 	}
 	@media only screen and (min-width: 768px) {
 		background: transparent;
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
-			color: white;
+			color: @navbar-text-color;
 			padding: 20px;
 			&:hover,
 			&:focus {
-				color: @white-faded;
+				color: @navbar-hover-color;
 			}
 		}
 		.nav {
 			li {
 				a {
-					color: white;
+					color: @navbar-text-color;
 					padding: 20px;
 					&:hover,
 					&:focus {
-						color: @white-faded;
+						color: @navbar-hover-color;
 					}
 				}
 			}
@@ -122,25 +138,24 @@ hr.small {
 			/* when the user scrolls down, we hide the header right above the viewport */
 			position: fixed;
 			top: -61px;
-			background-color: fade(white, 90%);
-			border-bottom: 1px solid darken(white, 5%);
+			background-color: fade(@navbar-bg-color, 90%);
 			-webkit-transition: -webkit-transform 0.3s;
 			-moz-transition: -moz-transform 0.3s;
 			transition: transform 0.3s;
 			.navbar-brand {
-				color: @gray-dark;
+				color: @navbar-text-color;
 				&:hover,
 				&:focus {
-					color: @brand-primary;
+					color: @navbar-hover-color;
 				}
 			}
 			.nav {
 				li {
 					a {
-						color: @gray-dark;
+						color: @navbar-text-color;
 						&:hover,
 						&:focus {
-							color: @brand-primary;
+							color: @navbar-hover-color;
 						}
 					}
 				}
@@ -153,6 +168,17 @@ hr.small {
 			-ms-transform: translate3d(0, 100%, 0);
 			-o-transform: translate3d(0, 100%, 0);
 			transform: translate3d(0, 100%, 0);
+		}
+	}
+	.navbar-toggle {
+		border-color: transparent;
+
+		&:hover,
+		&:focus {
+			background-color: @navbar-toggle-focus;
+		}
+		.icon-bar{
+			background-color: @navbar-text-color;
 		}
 	}
 }
@@ -471,6 +497,11 @@ body {
 	webkit-tap-highlight-color: @brand-primary;
 }
 
+
+
+// =====================================
+// Bruno Custom's
+// =====================================
 img{
 	&.center{
 		margin-right: auto;
@@ -487,3 +518,4 @@ img{
 		}
 	}
 }
+
