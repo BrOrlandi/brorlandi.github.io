@@ -12,6 +12,8 @@ Olá, eu sou **Bruno Orlandi**, desenvolvedor Web, formado em Ciências de Compu
 Amo a minha profissão em Computação e sou um eterno estudante desta área. Seja bem-vindo ao meu site pessoal. 
 Criei o blog para compartilhar **conhecimento**, **histórias**, **experiências**, **projetos**, **ideias**.
 Ou seja, tudo que eu acho interessante para as pessoas a minha volta, sejam da área de computação ou não.
+Eu também sou um empreendedor, e não, eu não tenho uma empresa. Eu empreendo meus projetos e minhas ideias, isso tem sido como um hobby pra mim.
+Neste site você encontrará meus projetos e poderá até conversar comigo sobre eles.
 
 Eu sou formado pela **USP** no __ICMC__ - *Instituto de Ciências Matemáticas e de Computação* em **São Carlos**.
 Desde a graduação me engajei em vários projetos e desenvolvi minhas ideias. 
@@ -26,6 +28,4 @@ Hoje trabalho como **desenvolvedor Web**, principalmente com **Javascript**, na 
 
 Se quiser falar comigo, manda um e-mail: **[<i class="fa fa-envelope-o"/> brorlandi@gmail.com](mailto:brorlandi@gmail.com){:style="text-decoration:none"}**
 
-<!--TODO star wars-->
-<!--TODO projetos-->
-<!--TODO empreendedor-->
+[//]: # (TODO link para os projetos)
