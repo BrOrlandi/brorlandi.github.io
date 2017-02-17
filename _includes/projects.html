@@ -1,0 +1,27 @@
+ <!-- Projects -->
+ <div class="container-fluid">
+{% for project in site.data.projects limit:include.limit %}
+<div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect" onclick="location.href='{{project.link}}';"
+    {% if project.bg-color %}
+        style="background-color: {{project.bg-color}};"
+    {% endif %}    
+    >
+        <img class="img-responsive" src="{{project.image}}" alt="">
+    {% unless project.image %}
+         <h3 style="color: {{project.text-color}}">{{project.title}}</h3>
+    {% endunless %}    
+        <div class="overlay">
+           <h2>{{project.title}}</h2>
+           <a class="info" href="#">saiba mais</a>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+
+{% if include.limit %}
+<span class="project-footer">
+    <a href="/projects" class="btn btn-primary">MAIS PROJETOS</a>
+</span>
+{% endif %}

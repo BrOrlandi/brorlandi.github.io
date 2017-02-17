@@ -1,0 +1,9 @@
+-   title: Star Wars Intro Creator
+    link: https://brorlandi.github.io/StarWarsIntroCreator/
+    image: /img/starwars.gif #https://unsplash.it/800/600?random
+    bg-color: "#353535"
+    
+-   title: Stranger Things Intro Creator
+    link: https://brorlandi.github.io/StrangerThingsIntroCreator/
+    bg-color: "#440000"
+    text-color: "#cacaca"
