@@ -7,7 +7,7 @@
         style="background-color: {{project.bg-color}};"
     {% endif %}    
     >
-        <img class="img-responsive" src="{{project.image}}" alt="">
+        <img class="img-responsive" style="width: 100%" src="{{project.image}}" alt="">
     {% unless project.image %}
          <h3 style="color: {{project.text-color}}">{{project.title}}</h3>
     {% endunless %}    
