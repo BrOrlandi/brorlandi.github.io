@@ -1,13 +1,20 @@
  <!-- Projects -->
- <div class="container-fluid">
+ {{include.limit}}
+ <div class="container-fluid projects">
 {% for project in site.data.projects limit:include.limit %}
-<div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
+{% assign loopindex = forloop.index | modulo: 2 %}
+  {% if loopindex == 1 %}
+      <div class="row">
+  {% endif %}
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 project-col">
     <div class="hovereffect" onclick="location.href='{{project.link}}';"
     {% if project.bg-color %}
         style="background-color: {{project.bg-color}};"
     {% endif %}    
     >
+    {% if project.image %}
         <img class="img-responsive" style="width: 100%" src="{{project.image}}" alt="">
+    {% endif %}
     {% unless project.image %}
          <h3 style="color: {{project.text-color}}">{{project.title}}</h3>
     {% endunless %}    
@@ -17,6 +24,10 @@
         </div>
     </div>
 </div>
+
+  {% if loopindex == 0 %}
+      </div>
+  {% endif %}
 {% endfor %}
 </div>
 

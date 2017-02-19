@@ -1,9 +1,3 @@
-/*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2017 Start Bootstrap
- * Licensed under MIT (https://spdx.org/licenses/MIT)
- */
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -442,8 +436,7 @@ body {
 }
 .hovereffect {
   width: 100%;
-  min-height: 250px;
-  height: 100%;
+  height: 250px;
   float: left;
   overflow: hidden;
   position: relative;
@@ -451,6 +444,7 @@ body {
   cursor: default;
   display: flex;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 .hovereffect .overlay {
@@ -547,4 +541,12 @@ img.header {
 }
 .project-footer a {
   margin-top: 30px;
+}
+.project-col {
+  margin-bottom: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .projects .row {
+    display: flex;
+  }
 }
