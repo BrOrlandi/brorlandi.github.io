@@ -61,4 +61,14 @@
     <meta itemprop="name" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
     <meta itemprop="description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
     <meta itemprop="image" content="{{ site.fb_img | prepend: site.url }}">
+
+    <!-- jQuery -->
+    <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
+
 </head>
