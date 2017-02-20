@@ -445,7 +445,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 .hovereffect .overlay {
   width: 100%;
@@ -494,7 +493,7 @@ body {
   padding: 7px 14px;
 }
 .hovereffect a.info:hover {
-  box-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 15px #fff;
 }
 .hovereffect:hover img {
   -ms-transform: scale(1.2);
@@ -549,4 +548,33 @@ img.header {
   .projects .row {
     display: flex;
   }
+}
+.projects .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  /* On mouse-over, add a deeper shadow */
+}
+.projects .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+h3 a {
+  color: #0057a1;
+}
+.center {
+  text-align: center;
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    width: 1600px;
+  }
+}
+.img-responsive.center {
+  margin-left: auto;
+  margin-right: auto;
 }

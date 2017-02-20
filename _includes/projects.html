@@ -1,13 +1,8 @@
  <!-- Projects -->
- {{include.limit}}
  <div class="container-fluid projects">
 {% for project in site.data.projects limit:include.limit %}
-{% assign loopindex = forloop.index | modulo: 2 %}
-  {% if loopindex == 1 %}
-      <div class="row">
-  {% endif %}
-<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 project-col">
-    <div class="hovereffect" onclick="location.href='{{project.link}}';"
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 project-col">
+    <div class="card hovereffect"
     {% if project.bg-color %}
         style="background-color: {{project.bg-color}};"
     {% endif %}    
@@ -20,14 +15,11 @@
     {% endunless %}    
         <div class="overlay">
            <h2>{{project.title}}</h2>
-           <a class="info" href="#">saiba mais</a>
+           <a class="info" href="{{project.link}}">saiba mais</a>
         </div>
     </div>
 </div>
 
-  {% if loopindex == 0 %}
-      </div>
-  {% endif %}
 {% endfor %}
 </div>
 

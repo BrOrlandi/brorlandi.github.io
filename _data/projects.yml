@@ -1,15 +1,39 @@
 -   title: Star Wars Intro Creator
     link: https://brorlandi.github.io/StarWarsIntroCreator/
     image: /img/starwars.gif
-    bg-color: "#353535"
+    bg-color: "#1d1d1d"
     
 -   title: Stranger Things Intro Creator
     link: https://brorlandi.github.io/StrangerThingsIntroCreator/
-    bg-color: "#440000"
+    bg-color: "#2b0000"
     image: /img/strangerthings.gif
     text-color: "#cacaca"
+
+-   title: Curso de Git e GitHub
+    link: https://github.com/Webschool-io/Curso-Git-Github
+    image: /img/gitcourse.png
+    bg-color: "#24292e"
+
+-   title: Breaking Badify
+    link: http://nihey.github.io/breaking-badify/#!/Breaking/Badify
+    bg-color: "#15220c"
+    image: /img/Breaking Badify.png
+
+-   title: GNOME Desktop Scroller
+    link: https://github.com/BrOrlandi/Desktop-Scroller-GNOME-Extension
+    bg-color: "#aaa"
+    image: /img/desktop-scroller.png
 
 -   title: Faustão Errou!
     link: https://github.com/BrOrlandi/faustao-errou
     bg-color: "#6b19a6"
     image: /img/faustao-errou.gif
+
+# -   title: React Firebase Social Network
+#     link: https://github.com/BrOrlandi/ReactFirebaseSocialNetwork
+#     bg-color: "#efefef"
+
+-   title: Chewbot Telegram
+    link: https://github.com/BrOrlandi/ChewbotTelegramBot
+    bg-color: "#efefef"
+    image: /img/chewbacca.jpg
