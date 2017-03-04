@@ -1,0 +1,22 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Bruno Orlandi",
+  "scope": "/",
+  "display": true,
+  "start_url": "/",
+  "short_name": "Bruno Orlandi",
+  "theme_color": "#0057a1",
+  "description": "Site pessoal de Bruno Orlandi. Formado em Computação e desenvolvedor Web full-stack. Compartilhando conhecimento, projetos e ideias. ;)\n",
+  "orientation": "any",
+  "background_color": "#3c82ae",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "https://brorlandi.github.io/img/favicon2.png",
+      "type": "image/png",
+      "sizes": "757x757"
+    }
+  ]
+}
