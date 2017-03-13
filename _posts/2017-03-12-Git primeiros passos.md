@@ -6,13 +6,13 @@ comments: true
 header-img: "img/git_start/header.png"
 ---
 
-Este rápido tutorial é pra vocẽ que já tem um conhecimento básico sobre ferramentas de controle de versão ou precisa de um guia rápido para Git com linha de comando.
+Este rápido tutorial é pra você que já tem um conhecimento básico sobre ferramentas de controle de versão ou precisa de um guia rápido para Git com linha de comando.
 Também pode ser muito útil se você está apenas acostumado a usar outras ferramentas de desenvolvimento com Git e não sabe os comandos que são executados por trás dela. Aprenda os comandos e não ficará dependente de nenhum outro software.
 Veremos os comandos comandos mais usados para se trabalhar com Git. Vou assumir que você já possui cadastro no [GitHub](https://github.com/) e já tem Git instalado em seu computador.
 
 ## Configure seu Usuário
 
-O controle de versão controla quem faz as alterações num projeto. Então vocẽ deve configurar seu usuário:
+O controle de versão controla quem faz as alterações num projeto. Então você deve configurar seu usuário:
 
 ```sh
 git config --global user.name "Bruno.Orlandi"
