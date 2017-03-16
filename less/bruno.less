@@ -82,3 +82,41 @@ img{
 		display: inline;
 	}
 }
+
+@fbcolor: #3B5997;
+@twcolor: #00aced;
+
+.share-page {
+    text-align: right;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5;
+	font-family: sans-serif;
+
+    a {
+        color: #fafafa;
+        margin-right: 10px;
+		background-color: black;
+		border-radius: 3px;
+		padding: 6px;
+		font-size: 15px;
+
+		&.fb{
+			background-color: @fbcolor;
+			&:hover{
+				background-color: lighten(@fbcolor,10%);
+			}
+		}
+		&.tw{
+			background-color: @twcolor;
+			&:hover{
+				background-color: lighten(@twcolor,10%);
+			}
+		}
+
+		&:hover,&:focus,&:active{
+			text-decoration: none;
+		}
+
+    }
+}

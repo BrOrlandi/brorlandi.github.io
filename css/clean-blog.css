@@ -587,3 +587,35 @@ h3 a {
 img.inline {
   display: inline;
 }
+.share-page {
+  text-align: right;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 1.5;
+  font-family: sans-serif;
+}
+.share-page a {
+  color: #fafafa;
+  margin-right: 10px;
+  background-color: black;
+  border-radius: 3px;
+  padding: 6px;
+  font-size: 15px;
+}
+.share-page a.fb {
+  background-color: #3b5997;
+}
+.share-page a.fb:hover {
+  background-color: #4c70b9;
+}
+.share-page a.tw {
+  background-color: #00aced;
+}
+.share-page a.tw:hover {
+  background-color: #21c2ff;
+}
+.share-page a:hover,
+.share-page a:focus,
+.share-page a:active {
+  text-decoration: none;
+}

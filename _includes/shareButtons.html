@@ -1,0 +1,6 @@
+{% unless page.dont-share %}
+    <div class="share-page">
+        <a class="tw" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Compartilhe no Twitter"><i class="fa fa-twitter"></i> Tweet</a>
+        <a class="fb" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Compartilhe no Facebook"><i class="fa fa-facebook"></i> Compartilhar</a>
+    </div>
+{% endunless %}
