@@ -24,8 +24,8 @@ Também fui monitor dos alunos do primeiro ano, voluntariamente. Participei do g
 Ajudei a organizar a melhor semana de computação do Brasil, a [**Semcomp**](https://semcomp.icmc.usp.br/){:target="_blank"}.
 
 Ao final de minha graduação me mudei para Campinas, onde estagiei e trabalhei na **Icaro Tech** na área de **Pesquisa e Desenvolvimento** como desenvolvedor Web.
-Hoje trabalho como **desenvolvedor Web**, principalmente com **Javascript**, na área de desenvolvimento de software da **PromonLogicalis**.
+Hoje trabalho como **desenvolvedor Web**, principalmente com **Javascript**, na área de desenvolvimento de software da [**Logicalis**](http://www.la.logicalis.com/pt-Latam/), antiga PromonLogicalis.
 
 Se quiser falar comigo, manda um e-mail: **[<i class="fa fa-envelope-o"/> brorlandi@gmail.com](mailto:brorlandi@gmail.com){:style="text-decoration:none"}**
 
-[//]: # (TODO link para os projetos)
+Para saber mais dos meus projetos acesse a página de [Projetos](/projects) e leia meus [posts](/) também!
