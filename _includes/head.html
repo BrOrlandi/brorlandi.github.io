@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
 
-    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {% if page.title %}
+        {% capture title %}
+            {{ page.title }} - {{ site.title }}
+        {% endcapture %}
+    {% else %}
+        {% assign title = site.title %}
+    {% endif %}
+  
+    {% if page.og-img %}
+        {% assign og_image = page.og-img | prepend: site.url %}
+    {% else %}
+        {% assign og_image = site.og-img | prepend: site.url %}
+    {% endif %}
+
+
+    <title>{{ title }}</title>
 
     <link rel="icon" href="/img/favicon2.png" type="image/png">
 
@@ -42,8 +57,8 @@
     <meta property="fb:app_id" content="175429786274303">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:image" content="{{ site.fb_img | prepend: site.url }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:image" content="{{ og_image }}">
     <meta property="og:description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="{{site.title}}">
     <meta property="og:locale" content="pt_BR">
@@ -52,15 +67,15 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@brorlandi">
     <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:title" content="{{ title }}">
     <meta name="twitter:description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{{ site.fb_img | prepend: site.url }}">
+    <meta name="twitter:image" content="{{ og_image }}">
 
     <!--Gplus-->
     <link href="https://plus.google.com/+BrunoOrlandi1" rel="publisher">
-    <meta itemprop="name" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta itemprop="name" content="{{ title }}">
     <meta itemprop="description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ site.description }}{% endif %}">
-    <meta itemprop="image" content="{{ site.fb_img | prepend: site.url }}">
+    <meta itemprop="image" content="{{ og_image }}">
 
     <!-- jQuery -->
     <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>

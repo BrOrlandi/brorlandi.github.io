@@ -32,4 +32,4 @@ timezone: America/Sao_Paulo
 
 livereload: true 
 
-fb_img: /img/fb-image.png
+og-img: /img/fb-image.png

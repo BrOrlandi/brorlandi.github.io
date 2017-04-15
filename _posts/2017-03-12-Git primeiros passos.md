@@ -4,6 +4,7 @@ date: 2017-03-12 14:07:38 -0300
 title: Git, primeiros passos
 comments: true
 header-img: "img/git_start/header.png"
+og-img: "/img/git_start/header.png"
 meta-description: Este rápido tutorial é pra você que já tem um conhecimento básico sobre ferramentas de controle de versão ou precisa de um guia rápido para Git com linha de comando.
 subtitle: Começando com Git em linha de comando.
 ---
