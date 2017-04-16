@@ -7,7 +7,7 @@
     "license": "MIT",
     "scripts": {
         "build": "grunt && jekyll build",
-        "dev": "grunt --watch",
+        "dev": "grunt watch",
         "start": "jekyll serve"
     },
     "devDependencies": {
