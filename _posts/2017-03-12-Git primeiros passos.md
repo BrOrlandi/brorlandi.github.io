@@ -7,6 +7,8 @@ header-img: "img/git_start/header.png"
 og-img: "/img/git_start/header.png"
 meta-description: Este rápido tutorial é pra você que já tem um conhecimento básico sobre ferramentas de controle de versão ou precisa de um guia rápido para Git com linha de comando.
 subtitle: Começando com Git em linha de comando.
+categories: Git
+permalink: :year/:month/:day/:title
 ---
 
 Este rápido tutorial é pra você que já tem um conhecimento básico sobre ferramentas de controle de versão ou precisa de um guia rápido para Git com linha de comando.
@@ -138,3 +140,5 @@ O comando irá criar a pasta **Tutorial** com o repositório.
 
 Ainda farei outros posts sobre Branchs e Forks com Git. 
 Assim dando mais um passo ao trabalho colaborativo com Git.
+
+{% include categories.html category='Git' %}

@@ -7,6 +7,7 @@ header-img: "img/git2/header.png"
 meta-description: Como usar git checkout, reset e revert na linha de comando.
 subtitle: Usando git checkout, reset, e revert  na linha de comando.
 permalink: git-desfazendo-commits
+categories: Git
 ---
 
 Espero que você já tenha lido o [primeiro post sobre Git aqui]({{ site.baseurl }}{% link _posts/2017-03-12-Git primeiros passos.md %}). Neste segundo post vou ensinar como desfazer alterações com Git.
@@ -89,3 +90,5 @@ Pode haver conflitos nessa operação, pois ao reverter um commit que criou uma 
 ## Continue aprendendo...
 
 Haverá outro post sobre resolver conflitos.
+
+{% include categories.html category='Git' %}
