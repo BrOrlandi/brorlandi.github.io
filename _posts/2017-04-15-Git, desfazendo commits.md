@@ -4,6 +4,7 @@ date: 2017-04-15 17:42:21 -0300
 title: Git, desfazendo commits
 comments: true
 header-img: "img/git2/header.png"
+og-img: "/img/git2/header.png"
 meta-description: Como usar git checkout, reset e revert na linha de comando.
 subtitle: Usando git checkout, reset, e revert  na linha de comando.
 permalink: git-desfazendo-commits
