@@ -120,3 +120,43 @@ img{
 
     }
 }
+
+.navdrop{
+
+	.caret{
+		height: 7px;
+	}
+
+	.dropdown-menu{
+		background-color: fade(@navbar-bg-color, 70%);
+
+		.divider{
+			background-color: fade(@navbar-bg-color, 40%);
+		}
+	}
+}
+
+.is-visible { .navdrop{
+	
+	.dropdown-menu{
+		background-color: fade(@navbar-bg-color, 90%);
+
+		.divider{
+			background-color: fade(@navbar-bg-color, 90%);
+		}
+	}
+}
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	color: white;
+	background-color: fade(white, 25%);
+}
+
+
+.dropdown-menu{
+	a{
+		&:hover,&:focus{
+	background-color: @navbar-bg-color !important;
+		}
+	}
+}

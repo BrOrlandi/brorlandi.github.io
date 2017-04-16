@@ -1,0 +1,18 @@
+ <!-- See more in this category -->
+ <h2>Veja mais</h2>
+<ul>
+    {% for more in site.categories[include.category] limit:5 %}
+    {% if more != page %}
+        <li>
+        <h3>
+        
+        <a href="{{ more.url }}">
+        {{ more.title }}
+        <small>{{ more.date | date_to_string }}</small>
+        </a>
+
+        </h3>
+        </li>
+    {% endif %}
+    {% endfor %}
+</ul>

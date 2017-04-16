@@ -619,3 +619,28 @@ img.inline {
 .share-page a:active {
   text-decoration: none;
 }
+.navdrop .caret {
+  height: 7px;
+}
+.navdrop .dropdown-menu {
+  background-color: rgba(0, 87, 161, 0.7);
+}
+.navdrop .dropdown-menu .divider {
+  background-color: rgba(0, 87, 161, 0.4);
+}
+.is-visible .navdrop .dropdown-menu {
+  background-color: rgba(0, 87, 161, 0.9);
+}
+.is-visible .navdrop .dropdown-menu .divider {
+  background-color: rgba(0, 87, 161, 0.9);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+  background-color: #0057a1 !important;
+}
