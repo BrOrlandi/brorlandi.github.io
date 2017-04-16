@@ -2,7 +2,55 @@
 title: 404
 permalink: /404.html
 ---
+<head>
 
-<body style="background-color: black; color: grey">
-<p>Sorry this page does not exist =(</p>    
+    <style>
+html, body, #a {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #151515;
+    color: grey;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+img{
+    max-height: 60vh;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 30pt;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+a{
+    color: grey;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <a href="{{site.baseurl}}/"><img src="/img/404.jpg" alt="4 Death Star 4"></a>
+        <p>THIS PAGE IS NOT FULLY ARMED AND OPERATIONAL.</p>
+        <span>From <a href="http://www.starwars.com/404">http://www.starwars.com/404</a></span>        
+    </div>
 </body>
