@@ -37,3 +37,8 @@
     link: https://github.com/BrOrlandi/ChewbotTelegramBot
     bg-color: "#efefef"
     image: /img/projects/chewbacca.jpg
+
+-   title: React Bigtext
+    link: https://brorlandi.github.io/react-bigtext
+    bg-color: "#a2c5ba"
+    image: /img/projects/bigtext.png
