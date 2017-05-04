@@ -64,6 +64,8 @@ Tivemos ainda usos em algumas grandes empresas, como Google, RedHat, Harley Davi
 
 Bom, agradeço muito sua atenção, espero continuar inspirando pessoas como você, que leu até aqui. Isso deixa claro como marcas que possuem muitos fãs podem ser usadas para causar um bom impacto no mundo. Caso queira deixar seu comentário abaixo, eu ficaria muito feliz em ouvir você. Compartilhe este post e o [Star Wars Intro Creator](https://starwarsintrocreator.github.io). Ajude-nos a criar histórias incríveis como estas no Brasil também.
 
+Agradecimentos para **[Nihey Takizawa](http://nihey.github.io/)** que esteve junto comigo nesta jornada e a **Érica Travain** que me ajudou com o texto e o infográfico deste post.
+
 Finalizo este post assim como eu finalizo todos meus e-mails de resposta...
 
 ***May the force be with you!***
