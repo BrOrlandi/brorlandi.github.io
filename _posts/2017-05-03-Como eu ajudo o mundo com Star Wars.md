@@ -41,9 +41,13 @@ Outra médica que também trabalha com tratamento de câncer contou que usou o s
 
 Existem alguns casos do contexto de educação. Professores usaram as aberturas em aulas e apresentações de congressos. O exemplo mais legal foi de uma escola em Tóquio, que fez a formatura das crianças da pré-escola com o tema de Star Wars. O site, antigamente, não estava preparado para suportar o alfabeto japonês. Nos mandaram várias fotos da festa, havia muitas pessoas assistindo ao vídeo do nosso site. Segue algumas fotos:
 
-<div>
-<img class="center" style="float: left; height: 400px" src="{{ site.baseurl }}/img/starwars/tokyo1.jpg" alt="Festa em Tokyo">
-<img class="center" style="height: 400px" src="{{ site.baseurl }}/img/starwars/tokyo2.jpg" alt="Festa em Tokyo">
+<div style="display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+">
+<img class="center" style="height: 400px;" src="{{ site.baseurl }}/img/starwars/tokyo1.jpg" alt="Festa em Tokyo">
+<img class="center" style="height: 400px; padding-left: 20px;" src="{{ site.baseurl }}/img/starwars/tokyo2.jpg" alt="Festa em Tokyo">
 </div>
 
 Algumas instituições de caridade também já nos contaram histórias. Uma delas ajuda crianças com necessidades especiais. Os responsáveis também nos enviaram algumas fotos e o pessoal leva muito a sério a fantasia de Star Wars.
