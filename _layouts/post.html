@@ -7,7 +7,11 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            {% if page.title-color %}
+                <div class="post-heading" style="color: {{page.title-color}}">
+            {% else %}
                 <div class="post-heading">
+            {% endif %}
                     <h1>{{ page.title }}</h1>
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
