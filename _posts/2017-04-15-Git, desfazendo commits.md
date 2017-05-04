@@ -92,4 +92,4 @@ Pode haver conflitos nessa operação, pois ao reverter um commit que criou uma 
 
 Haverá outro post sobre resolver conflitos.
 
-{% include categories.html category='Git' %}
+{% include more_categories.html category='Git' %}
