@@ -13,7 +13,7 @@ permalink: :year/:month/:day/:title/
 
 Este rápido tutorial é pra você que já tem um conhecimento básico sobre ferramentas de controle de versão ou precisa de um guia rápido para Git com linha de comando.
 Também pode ser muito útil se você está apenas acostumado a usar outras ferramentas de desenvolvimento com Git e não sabe os comandos que são executados por trás dela. Aprenda os comandos e não ficará dependente de nenhum outro software.
-Veremos os comandos comandos mais usados para se trabalhar com Git. Vou assumir que você já possui cadastro no [GitHub](https://github.com/) e já tem Git instalado em seu computador.
+Veremos os comandos mais usados para se trabalhar com Git. Vou assumir que você já possui cadastro no [GitHub](https://github.com/) e já tem Git instalado em seu computador.
 
 ## Configure seu Usuário
 
@@ -28,7 +28,7 @@ Substitua com seu Usuário e E-mail da sua conta no GitHub.
 
 ## Crie um Repositório
 
-O repositório é onde seus arquivos estarão os arquivos versionados, no servidor Git e no seu computador em uma pasta.
+O repositório é onde estarão os arquivos versionados, no servidor Git e no seu computador em uma pasta.
 Crie uma pasta, já com o nome do seu repositório e execute o comando dentro dela:
 
 ```sh
@@ -38,7 +38,7 @@ No meu exemplo a pasta se chama **Tutorial**
 
 ## Crie o Commit
 
-O Commit é um pacote de alterações feitas no repositório. O commit possui arquivos alterados, autor e uma mensagem de resumo.
+Um Commit é um pacote de alterações feitas no repositório. Cada commit possui arquivos alterados, autor e uma mensagem de resumo.
 
 Vamos criar o primeiro commit criando um arquivo especial para o GitHub chamado **README.md**. Dentro deste arquivo escreva:
 
@@ -97,7 +97,7 @@ git log
 Agora você precisa sincronizar o seu repositório com o GitHub, mas ainda não fizemos nenhuma conexão entre eles.
 Acesse seu GitHub e na página inicial você encontrará o botão <img src="/img/git_start/newrepo.png" class="inline" width="130px"/>
 
-Crie o repositório com o nome que desejar, neste exemplo estarei usando **Tutorial**.
+Crie o repositório com o nome que desejar, neste exemplo vou usar **Tutorial**.
 Após criado, o repositório já exibirá os comandos necessários para iniciar e configurar o seu repositório localmente.
 Como já criamos o repositório localmente e queremos subí-lo no GitHub seguiremos com a opção *"push an existing repository from the command line"*.
 Primeiro devemos configurar qual o repositório remoto. Execute usando a URL do seu repositório:
@@ -112,7 +112,7 @@ git push -u origin master
 ```
 
 Olhe o repositório no GitHub e verá seu arquivo **README.md** lá e exibido na página inicial do repositório.
-Pronto, você aprendeu os principais comandos para se trabalhar com Git. Git é uma ótima ferramenta para se trabalhar em equipe também e apenas estes comandos não são suficientes.
+Pronto, você aprendeu os principais comandos para se trabalhar com Git. Git é uma ótima ferramenta para se trabalhar em equipe também mas apenas estes comandos não são suficientes.
 
 ## Sincronize o repositório
 
