@@ -141,4 +141,6 @@ O comando irá criar a pasta **Tutorial** com o repositório.
 Ainda farei outros posts sobre Branchs e Forks com Git. 
 Assim dando mais um passo ao trabalho colaborativo com Git.
 
+Sabia que eu tenho um curso online gratuito sobre Git e GitHub na Udemy? Acesse meu curso [aqui](https://brorlandi.github.io/curso-git/) e saiba mais sobre ele.
+
 {% include more_categories.html category='Git' %}

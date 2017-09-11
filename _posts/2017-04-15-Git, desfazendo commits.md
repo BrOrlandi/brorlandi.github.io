@@ -92,4 +92,6 @@ Pode haver conflitos nessa operação, pois ao reverter um commit que criou uma 
 
 Haverá outro post sobre resolver conflitos.
 
+Sabia que eu tenho um curso online gratuito sobre Git e GitHub na Udemy? Acesse meu curso [aqui](https://brorlandi.github.io/curso-git/) e saiba mais sobre ele.
+
 {% include more_categories.html category='Git' %}
