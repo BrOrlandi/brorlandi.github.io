@@ -11,8 +11,13 @@
 
 -   title: Curso de Git e GitHub
     link: https://brorlandi.github.io/curso-git
-    image: /img/projects/gitcourse.png
+    image: /img/projects/gitcourse.jpg
     bg-color: "#24292e"
+
+-   title: BB-8 Three.js
+    link: https://brorlandi.github.io/bb8
+    bg-color: "#000"
+    image: /img/projects/bb8.png
 
 -   title: Breaking Badify
     link: http://nihey.github.io/breaking-badify/#!/Breaking/Badify
