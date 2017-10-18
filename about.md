@@ -23,8 +23,7 @@ No segundo ano realizei uma iniciação científica na área de **Computação a
 Também fui monitor dos alunos do primeiro ano, voluntariamente. Participei do grupo **PET Computação**, no qual fui professor e coordenador do **Projeto Codifique**, voltado para o ensino de programação Web para estudantes do Ensino Médio.
 Ajudei a organizar a melhor semana de computação do Brasil, a [**Semcomp**](https://semcomp.icmc.usp.br/){:target="_blank"}.
 
-Ao final de minha graduação me mudei para Campinas, onde estagiei e trabalhei na **Icaro Tech** na área de **Pesquisa e Desenvolvimento** como desenvolvedor Web.
-Hoje trabalho como **desenvolvedor Web**, principalmente com **Javascript**, na área de desenvolvimento de software da [**Logicalis**](http://www.la.logicalis.com/pt-Latam/), antiga PromonLogicalis.
+Hoje trabalho como **Desenvolvedor Frontend** na [**UPX Technologies**](https://www.upx.com/).
 
 Se quiser falar comigo, manda um e-mail: **[<i class="fa fa-envelope-o"/> brorlandi@gmail.com](mailto:brorlandi@gmail.com){:style="text-decoration:none"}**
 
