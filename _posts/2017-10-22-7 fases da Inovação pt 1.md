@@ -32,7 +32,7 @@ Historicamente tivemos dois grandes marcos que proporcionaram as maiores evoluç
 
 A seguir veremos então quais são as fases, os padrões, que levam a ambientes mais favoráveis à termos boas ideias e inovarmos.
 
-# 1. O Possível Adjacente
+# 1. Possível Adjacente
 
 {% include image_center.html src='/img/inovacao/rooms.png' width=500 alt='Sala com várias portas'%}
 
