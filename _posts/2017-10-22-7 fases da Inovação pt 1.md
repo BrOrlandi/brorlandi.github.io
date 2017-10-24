@@ -4,7 +4,7 @@ date: 2017-10-22 12:39:11 -0200
 title: 7 fases da Inovação - Parte 1
 comments: true
 header-img: "img/inovacao/innovation-lightbuls.jpg"
-og-img: "/img/inovacao/innovation-lightbuls.jpg"
+og-img: "/img/inovacao/ogimg.jpg"
 meta-description: É possível fomentar a Inovação na sua empresa? Existem técnicas ter melhores ideias e ser inovador? Sim, neste post explico o que é inovação e como você pode ser mais inovador no seu trabalho e nos seus projetos.
 permalink: sete-fases-inovacao
 categories: Inovação
