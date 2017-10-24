@@ -5,12 +5,12 @@ title: 7 fases da Inovação - Parte 1
 comments: true
 header-img: "img/inovacao/innovation-lightbuls.jpg"
 og-img: "/img/inovacao/innovation-lightbuls.jpg"
-meta-description:
+meta-description: É possível fomentar a Inovação na sua empresa? Existem técnicas ter melhores ideias e ser inovador? Sim, neste post explico o que é inovação e como você pode ser mais inovador no seu trabalho e nos seus projetos.
 permalink: sete-fases-inovacao
 categories: Inovação
 ---
 
-Algum tempo atrás comecei a me interessar mais por criatividade e inovação. Desde então venho estudando muito sobre estes temas. Se tratando de inovação, li o livro *"De onde vêm as boas ideias" - Steven Johnson*, 2010. Neste livro a inovação é analisada de uma forma mas científica, olhando para várias inovações que ocorreram na história da humanidade. Com este livro eu montei uma palestra com o mesmo título deste post e apresentei no grupo de [**meetup Future Thinking & Tech Campinas**](https://www.meetup.com/pt-BR/preview/Future-Thinking-Tech-Campinas). Um vídeo de minha palestra está [disponível no YouTube](https://www.youtube.com/watch?v=Rs1rruc-CBM) caso tenha interesse assistir. Mesmo resumindo, o conteúdo é longo, por isso dividi este post em duas partes.
+É possível fomentar a Inovação na sua empresa? Existem técnicas ter melhores ideias e ser inovador? Sim, neste post explico o que é inovação e como você pode ser mais inovador no seu trabalho e nos seus projetos. Este post foi baseado no livro *"De onde vêm as boas ideias" - Steven Johnson*, 2010 e na minha [palestra sobre inovação](https://www.youtube.com/watch?v=Rs1rruc-CBM). No livro a inovação é analisada de uma forma mas científica, olhando para várias inovações que ocorreram na história da humanidade.
 
 # O que é inovação?
 
