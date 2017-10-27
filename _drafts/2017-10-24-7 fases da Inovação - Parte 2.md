@@ -38,6 +38,10 @@ A *Kodak* chegou a ser responsável por 90% da produção de filmes usados nas c
 
 # 6. Exaptação
 
+Mais uma palavra que você provavelmente não conhecia. Exaptação é quando você aplica um conceito maduro em outra área totalmente diferente. Por exemplo, em 1804 o tear mecânica funcionava a base de cartões perfurados que receita para confeccionar um tecido. O mesmo conceito de cartões perfurados foram usados até 1970 para programar os primeiros computadores digitais. Os tubos de vácuo foram originalmente inventados para aplificar sinais, mas foram essenciais representando os zeros e uns do primeiro computador eletrônico, o ENIAC. Eles também foram exaptados para os amplificadores de guitarra da *Fender*. O ambiente gráfico do computador como conhecemos hoje, área de trabalho, pastas, arquivos, documentos, lixeira... todos estes conceitos são exaptados do conceito de um escritório.
+
+Voltemos às cidades e como elas favorecem a exaptação. Uma cidade, quanto maior ela é, maior a tendência dela possuir subculturas, pessoas com interesses e experiências em comum. Por exemplo, uma cidade de mil habitantes é pouco provavel haver um grande grupo que se interesse por biotecnologia e genética, já em uma cidade com dez milhões, isso é bem mais provável. O que isso tem a ver? As informações e ideias podem vazar de uma subcultura para outra, favorecendo assim a exaptação. No final dos anos 90, Martin Ruef da Stanford Business School estudou a relação entre inovação e diversidade em redes sociais. Ele concluiu que empreendedores que se conectam com pessoas de diferentes áreas tendem a ser três vezes mais inovadoras do que os que se conectam apenas com pessoas da mesma área de atuação. Isso acontece pois eles tem a tendência de trazer conceitos de outras áreas para seu trabalho, assim como o caminho inverso.
+
 # 7. Plataformas
 
 # Conclusão
