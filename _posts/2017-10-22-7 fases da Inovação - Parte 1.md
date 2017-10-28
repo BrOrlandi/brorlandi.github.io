@@ -54,8 +54,8 @@ Realizar *Brainstormings* é uma forma de favorecer uma rede líquida, porém po
 
 Muitas vezes temos intuições sobre algo, ideias incompletas. Frequentemente temos mais intuições do que ideias reveladoras. As intuições levam tempo para se desenvolver, são frágeis e podem ser perdidas com tempo assim como podem ganhar força com ele. Muitas vezes a conclusão de uma ideia está na mente de outra pessoa, por isso devemos favorecer a conexão e compartilhamento de ideias. A criação da Web começou com uma intuição [10 anos antes de sua criação](https://pt.wikipedia.org/wiki/Tim_Berners-Lee). Nas empresas, o melhor jeito de favorecer a intuição lenta é contribuir com o desenvolvimento dela. A Google na sua política de 20% do tempo para inovação favoreceu que os colaboradores a trabalharem em suas ideias, exercitando a criatividade e a inovação. Neste tempo foram incubadas as ideias do AdSense, Gmail, Google News e outros produtos. As ideias precisam de um tempo incubadas, as vezes em nossa mente, as vezes em um grupo de pessoas. Se não cair em esquecimento, ela poderá se desenvolver numa ideia melhor. Uma dica é anotar todas as intuições e ideias que tiver, assim pode sempre revisitá-las.
 
-Na segunda parte deste post explicarei como favorecer a evolução das ideias com mais 4 fases da inovação. O post sairá em breve!
+<hr/>
 
-<!-- Na segunda parte deste post explico como favorecer a evolução das ideias com mais 4 fases da inovação.
+Na segunda parte deste post explico como favorecer a evolução das ideias com mais 3 fases da inovação. A última fase e conclusão do tema estará no terceiro post.
 
-## [Continue para a parte 2...](/pt2) -->
+[Continue para a parte 2...](/sete-fases-inovacao-2)
