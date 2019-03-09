@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './src/css/clean-blog.min.css';
 import './src/css/syntax.css';
 
+import './src/less/clean-blog.less';
 
 window.jQuery = jquery;
 window.$ = jquery;
