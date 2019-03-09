@@ -26,6 +26,7 @@ function SEO({
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -33,13 +34,15 @@ function SEO({
   );
 
   const metaDescription = description || site.siteMetadata.description;
+  const pageTitle = title || site.siteMetadata.title;
+  const imageUrl = `${site.siteMetadata.siteUrl}${image}`;
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title || site.siteMetadata.title}
+      title={pageTitle}
       titleTemplate={title ? `%s | ${site.siteMetadata.title}` : null}
       meta={[
         {
@@ -48,7 +51,7 @@ function SEO({
         },
         {
           property: 'og:title',
-          content: title,
+          content: pageTitle,
         },
         {
           property: 'og:description',
@@ -59,8 +62,12 @@ function SEO({
           content: 'website',
         },
         {
+          property: 'og:url',
+          content: site.siteMetadata.siteUrl, // TODO test
+        },
+        {
           property: 'og:image',
-          content: image, // TODO test
+          content: imageUrl, // TODO test
         },
         {
           name: 'twitter:card',
@@ -72,7 +79,7 @@ function SEO({
         },
         {
           name: 'twitter:title',
-          content: title,
+          content: pageTitle,
         },
         {
           name: 'twitter:description',
@@ -80,7 +87,7 @@ function SEO({
         },
         {
           name: 'twitter:image',
-          content: image, // TODO test
+          content: imageUrl, // TODO test
         },
       ]
         .concat(
@@ -101,6 +108,7 @@ SEO.defaultProps = {
   description: '',
   meta: [],
   keywords: [],
+  title: null,
 };
 
 SEO.propTypes = {
@@ -108,7 +116,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.array,
   keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   image: PropTypes.string.isRequired,
 };
 

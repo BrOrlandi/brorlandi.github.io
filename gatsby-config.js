@@ -3,6 +3,7 @@ module.exports = {
     title: 'Bruno Orlandi',
     description: 'Site pessoal de Bruno Orlandi.  Empreendedor e Desenvolvedor Front-end. Compartilhando conhecimento, projetos e ideias sobre tecnologia, empreendedorismo e desenvolvimento pessoal.',
     author: '@BrOrlandi',
+    siteUrl: 'https://brorlandi.github.io',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
