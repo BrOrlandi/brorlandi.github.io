@@ -7,3 +7,4 @@
 ## Todo list
 
 - Testar SEO url e imagens OpenGraph.
+- Feed RSS?
