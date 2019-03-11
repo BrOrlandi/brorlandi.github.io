@@ -7,7 +7,18 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
-    <SEO keywords={['tecnologia', 'frontend', 'web', 'empreendedorismo', 'bruno', 'orlandi', 'projetos', 'desenvolvimento']} />
+    <SEO keywords={['tecnologia',
+      'frontend',
+      'web',
+      'empreendedorismo',
+      'desenvolvimento',
+      'software',
+      'reactjs',
+      'git',
+      'javascript',
+      'nodejs',
+    ]}
+    />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
