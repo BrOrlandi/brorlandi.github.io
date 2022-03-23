@@ -57,7 +57,7 @@ Pronto, o arquivo saiu do stage.
 
 O comando `git reset`, como o próprio nome diz, reseta o repositório para o estado do último commit, ou outro commit. Ou seja, com ele podemos desfazer commits.
 
-Vamos desfazer o último commit de um repositório para exemplificar. Há dois modos de usar o `get reset` aqui.
+Vamos desfazer o último commit de um repositório para exemplificar. Há dois modos de usar o `git reset` aqui.
 Use:
 
 ```sh
